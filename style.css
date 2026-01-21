@@ -9,8 +9,6 @@ body{
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
-    
 }
 
 ul{
@@ -23,12 +21,9 @@ a{
     text-decoration: none;
 }
 
-.main-body {
-    display: flex;
-    flex-direction: column;
-    flex:1;
 
-}
+
+/* --- Main body classes for the divs that contain everything --- */
 
 .container {
     display: flex;
@@ -38,11 +33,16 @@ a{
     flex: 1;
 }
 
-.lateral-borders{
+.main-body {
     display: flex;
-    flex-direction: row;
-    padding: 64px;
+    flex-direction: column;
+    flex:1;
+
 }
+
+
+
+/* --- Header classes --- */
 
 .header{
     display: flex;
@@ -66,6 +66,9 @@ a{
     gap: 16px;
 }
 
+
+
+/* --- Section One classes --- */
 
 .section-one{
     display: flex;
@@ -128,6 +131,9 @@ a{
 
 }
 
+
+/* --- Section Two classes --- */
+
 .section-two{
     display: flex;
     flex-direction: column;
@@ -137,6 +143,7 @@ a{
     
 }
 .section-two-title{
+    display: flex;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
@@ -171,13 +178,43 @@ a{
 }
 
 
+
+/* --- Section Three classes --- */
+
 .section-three {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #E5E7EB;
+    
+}
+.section-three-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 800px;
+    padding: 32px;
 }
 
+.section-three-quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+.section-three-thor {
+    font-weight: bold;
+}
+
+
+
+/* --- Section Four classes --- */
 .section-four {
     display: flex;
 }
+
+
+
+/* --- Footer classes --- */
 
 .footer {
     display: flex;
