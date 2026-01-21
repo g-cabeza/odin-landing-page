@@ -82,7 +82,7 @@ a:visited {
     justify-content: center;
     align-items: stretch;
     padding: 64px 0px 64px 0px;
-    gap: 5px;
+    gap: 80px;
 
  
 }
@@ -183,6 +183,7 @@ a:visited {
     width: 150px;
     text-align: center;
     color:grey;
+    margin-top: 10px;
 }
 
 
