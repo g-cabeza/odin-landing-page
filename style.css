@@ -7,6 +7,9 @@
 body{
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
     
 }
 
@@ -30,7 +33,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    flex: 1;
     
 }
 
@@ -45,6 +48,10 @@ a{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 900;
     
 }
 
@@ -53,25 +60,32 @@ a{
     justify-content: flex-end;
     align-items:center;
     padding: 16px;
+    font-weight: normal;
+    gap: 16px;
 }
 
 
 .section-one{
-
+    display: flex;
 }
 
 .section-two{
-
+    display: flex;
 }
 
 .section-three {
-
+    display: flex;
 }
 
 .section-four {
-
+    display: flex;
 }
 
 .footer {
-    padding: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 16px;
 }
