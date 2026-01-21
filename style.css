@@ -26,15 +26,16 @@ a{
 .main-body {
     display: flex;
     flex-direction: column;
-    padding: 64px;
+    flex:1;
+
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
     flex: 1;
-    
 }
 
 .lateral-borders{
@@ -68,16 +69,48 @@ a{
 .section-one{
     display: flex;
     flex-direction: row;
+    /* flex: 1;  <-------------------- This property makes the div to strectch the whole viewport down */
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: stretch;
+ 
 }
 
 .section-one-text{
     display: flex;
     flex-direction: column;
+    padding: 16px 16px 16px 0px;
+
+
 }
 
-.section-one-image{
+.section-one-title {
     display: flex;
-    padding: 16px;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 420px;
+
+}
+
+.section-one-subtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 420px;
+    padding: 0px 16px 16px 0px;
+}
+
+.section-one-image {
+  display: flex;
+  flex-direction: column;
+    padding: 16px 0px 16px 16px;
+  max-width: 450px;
+
 }
 
 .section-two{
