@@ -67,6 +67,17 @@ a{
 
 .section-one{
     display: flex;
+    flex-direction: row;
+}
+
+.section-one-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one-image{
+    display: flex;
+    padding: 16px;
 }
 
 .section-two{
